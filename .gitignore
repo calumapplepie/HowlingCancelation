@@ -2,7 +2,7 @@
 *.mex64
 *.mexw64
 *.slxc
-*/slprj/
-*/codegen/
+**/slprj/
+**/codegen/
 *.mat
 *.autosave
