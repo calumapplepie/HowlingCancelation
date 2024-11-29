@@ -1,8 +1,8 @@
 *.mldatx
-*.mex64
-*.mexw64
+*.mex*
 *.slxc
 **/slprj/
 **/codegen/
 *.mat
 *.autosave
+Reference/
