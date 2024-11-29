@@ -1,0 +1,7 @@
+*.mldatx
+*.mex64
+*.mexw64
+*.slxc
+*/slprj/
+*/codegen/
+*.mat
