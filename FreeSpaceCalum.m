@@ -189,7 +189,7 @@ classdef (Sealed,StrictDefaults) FreeSpaceCalum < phased.internal.AbstractFreeSp
             lambda = obj.pLambda;
             [propdelay,propdistance,rspeed] = computePropagationDelayVelocity(...
                 obj,startLoc,endLoc,baseVel,targetVel);
-            sploss = -k*20*log(propdistance); % spherical spreading loss; can add other losses later
+            sploss = k*20*log(propdistance); % spherical spreading loss; can add other losses later
             plossfactor = sqrt(db2pow(sploss));
             for pIdx = 1:numOfPropPaths
                 colidx = (pIdx-1)*ncol_per_path+(1:ncol_per_path);
